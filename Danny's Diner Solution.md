@@ -23,10 +23,10 @@ ORDER BY
 
 Answer:
 | Customers	  | Amount_Spent |
-| ------------- | ------------- |
-| Customer A  | $76  |
-| Customer B  | $74  |
-| Customer C  | $36  |
+ ------------ | -------------|
+| Customer A  |     $76      |
+| Customer B  |     $74      |
+| Customer C  |     $36      |
 
 Steps:
 - Use JOIN to merge sales and menu tables as customer_id is from the sales table and price is from the menu table.
