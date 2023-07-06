@@ -21,12 +21,8 @@ GROUP BY
 ORDER BY 
 	customer_id;
 
-Answer:
-| Customers	  | Amount_Spent |
- ------------ | -------------|
-| Customer A  |     $76      |
-| Customer B  |     $74      |
-| Customer C  |     $36      |
+![image](https://github.com/Sowah07/8Week_SQL_Challenge/assets/99689876/02ba73db-dee2-4d1a-bf56-ce18a937ec3c)
+
 
 Steps:
 - Use JOIN to merge sales and menu tables as customer_id is from the sales table and price is from the menu table.
