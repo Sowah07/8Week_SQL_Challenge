@@ -21,11 +21,12 @@ GROUP BY
 ORDER BY 
 	customer_id;
 
-![image](https://github.com/Sowah07/8Week_SQL_Challenge/assets/99689876/02ba73db-dee2-4d1a-bf56-ce18a937ec3c)
+
 
 
 Steps:
 - Use JOIN to merge sales and menu tables as customer_id is from the sales table and price is from the menu table.
-- Use SUM and GROUP BY to find out total_sales contributed by each customer.
+- Use SUM and concatenating a dollar sign ('$') to arrive at the amount spent
+- GROUP BY to find out total_sales contributed by each customer.
 
 
