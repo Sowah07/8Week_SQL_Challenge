@@ -22,8 +22,15 @@ GROUP BY
 ORDER BY 
 	customer_id;
 
-
+Answer:
+| Customers	  | Amount_Spent |
+ ------------ | -------------|
+| Customer A  |     $76      |
+| Customer B  |     $74      |
+| Customer C  |     $36      |
 
 Steps:
 - Use JOIN to merge sales and menu tables as customer_id is from the sales table and price is from the menu table.
 - Use SUM and GROUP BY to find out total_sales contributed by each customer.
+
+
