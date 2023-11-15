@@ -23,7 +23,7 @@ ORDER BY
 	customer_id;
 
 Answer:
-| Customers	  | Amount_Spent |
+| Customers   | Amount_Spent |
  ------------ | -------------|
 | Customer A  |     $76      |
 | Customer B  |     $74      |
