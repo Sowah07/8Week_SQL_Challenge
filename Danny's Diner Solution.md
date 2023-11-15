@@ -42,6 +42,6 @@ FROM [dannys_diner].[sales]
 GROUP BY customer_id;
 
 --I selected the customer ID and counted the number of distinct order dates for each customer from the sales table, and grouped the results by customer ID. Result shown below;
-![image](https://drive.google.com/file/d/1Uwbm2WhEOPjJTxZSlwR-galcErjqmUDI/view?usp=drive_link.png)
+![Alt text](Q2.jpg)
 
 
